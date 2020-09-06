@@ -3,7 +3,6 @@ import styled from 'styled-components';
 export const Navigation = styled.nav`
     width : 100vw;
     height : 80px;
-    position : fixed;
     background : #172b4d;
     display : flex ;
     color : white ;
@@ -34,5 +33,18 @@ export const Navigation = styled.nav`
 export const H1 = styled.h1`
     font-size: 1.5rem;
     color : white;
+
+`
+
+
+export const FooterBlog = styled.footer`
+    width : 100vw;
+    background-color : #f4f5f7;
+    height: 9rem;
+`
+
+
+export const MainSection = styled.section`
+    flex : 1
 
 `

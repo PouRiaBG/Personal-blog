@@ -1,13 +1,15 @@
 import React from 'react';
 import GlobalStyle from '../styles/global'
 import Navigation from './Navigation'
+import Footer from './Footer';
 
-const Template = (props : any)=>{
+const Template = ({children}: any)=>{
     return(
         <>
             <GlobalStyle/>
             <Navigation/>
-                {props.children}
+                {children}
+            <Footer/>
         </>
     )
 }

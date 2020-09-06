@@ -1,10 +1,10 @@
 import React from 'react';
-
+import { MainSection } from '../styles/elements'
 const About = ()=>{
     return (
-        <div>
+        <MainSection>
             this is About
-        </div>
+        </MainSection>
     )
 }
 

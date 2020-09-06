@@ -1,10 +1,10 @@
 import React from 'react';
-
+import { MainSection } from '../styles/elements'
 const Contact = ()=>{
     return (
-        <div>
+        <MainSection>
             this is contact us
-        </div>
+        </MainSection>
     )
 }
 

@@ -1,6 +1,8 @@
 import {createGlobalStyle} from 'styled-components'
 
 export default createGlobalStyle`
+
+
         html, body, div, span, applet, object, iframe,
         h1, h2, h3, h4, h5, h6, p, blockquote, pre,
         a, abbr, acronym, address, big, cite, code,
@@ -25,6 +27,13 @@ export default createGlobalStyle`
             sans-serif;
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
+        }
+
+        #root{
+            display : flex;
+            width : 100vw;
+            height : 100vh;
+            flex-direction : column;
         }
 
         /* make sure to set some focus styles for accessibility */

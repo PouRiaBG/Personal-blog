@@ -1,10 +1,10 @@
 import React from 'react';
-
+import { MainSection } from '../styles/elements'
 const Blog = ()=>{
     return (
-        <div>
+        <MainSection>
             this is Blog
-        </div>
+        </MainSection>
     )
 }
 
