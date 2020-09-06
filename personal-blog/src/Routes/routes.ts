@@ -1,7 +1,7 @@
-import Home from './pages/Home';
-import Blog from './pages/Blog';
-import Contact from './pages/Contact';
-import About from './pages/About';
+import Home from '../pages/Home';
+import Blog from '../pages/Blog';
+import Contact from '../pages/Contact';
+import About from '../pages/About';
 
 
 const routes = [
