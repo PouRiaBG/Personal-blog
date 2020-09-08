@@ -1,7 +1,7 @@
 import React from 'react';
 import GlobalStyle from '../styles/global'
-import Navigation from './Navigation'
-import Footer from './Footer';
+import Navigation from './Navigation/Navigation'
+import Footer from './Footer/Footer';
 
 const Template = ({children}: any)=>{
     return(

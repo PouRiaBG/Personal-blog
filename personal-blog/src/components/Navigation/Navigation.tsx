@@ -1,7 +1,7 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
-import {Navigation ,H1} from '../styles/elements'
-import {links} from '../Routes/links'
+import {Navigation ,H1} from '../../styles/elements'
+import {links} from '../../Routes/links'
 
 const Nav:React.FC = (props)=>{
     

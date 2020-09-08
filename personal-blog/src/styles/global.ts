@@ -85,6 +85,11 @@ export default createGlobalStyle`
             -moz-box-sizing: content-box;
             box-sizing: content-box;
         }
+        
+        a{
+            text-decoration : none;
+            outline : none;
+        }
 
         textarea {
             overflow: auto;

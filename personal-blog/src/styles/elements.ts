@@ -40,11 +40,15 @@ export const H1 = styled.h1`
 export const FooterBlog = styled.footer`
     width : 100vw;
     background-color : #f4f5f7;
-    height: 9rem;
+    height: 11rem;
+    display : flex;
 `
 
 
 export const MainSection = styled.section`
-    flex : 1
+    flex : 1;
+    display : flex;
+    justify-content : center;
+    align-items : center;
 
 `
