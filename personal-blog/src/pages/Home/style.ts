@@ -25,5 +25,8 @@ export const Section = styled.div`
         border-radius : 5px;
         font-weight : bold;
     }
+    a:hover {
+        background-color : #233dd2;
+    }
 
 `
