@@ -9,14 +9,20 @@ const Nav:React.FC = (props)=>{
      <Navigation>
          <section className="nav-section">
              <H1>
-                 Personal blog
+                 <NavLink to="/login" activeClassName="underline">
+                    Login
+                 </NavLink>
+            
+             </H1>
+             <H1>
+                Personal blog
              </H1>
          </section>
          <section className="nav-section2">
             {
                 links.map((link)=>{
                 return <NavLink exact={link.exact || false} activeClassName="underline"
-                to={link.to}>{link.name}</NavLink>
+                to={link.to} key={link.name}>{link.name}</NavLink>
                 })
             }
          </section>

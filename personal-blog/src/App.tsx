@@ -9,7 +9,7 @@ const App:React.FC = ()=>{
       <Template>
         {
           routes.map((routes)=>{
-              return <Route exact={routes.exact} path={routes.path} component={routes.components} />
+              return <Route exact={routes.exact} path={routes.path} component={routes.components} key={routes.path} />
           })
         }
       </Template>

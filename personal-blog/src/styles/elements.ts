@@ -6,11 +6,13 @@ export const Navigation = styled.nav`
     background : #172b4d;
     display : flex ;
     color : white ;
+
     .nav-section {
         display : flex;
-        justify-content : center;
+        justify-content : space-around;
         align-items : center;
         flex : 1;
+        cursor : pointer;
     } 
     .nav-section2 {
         display : flex;
@@ -18,12 +20,11 @@ export const Navigation = styled.nav`
         align-items : center;
         flex : 1;
     }
-    .nav-section2 a {
-        color : white;
-        text-decoration : none;
-        outline : none;
+
+    
+    a {
+        outline : none !important;
         padding : 20px;
-        font-weight : 700;
     }
     .underline {
         border-bottom : 1px solid;

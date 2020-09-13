@@ -2,6 +2,7 @@ import Home from '../pages/Home/Home';
 import Blog from '../pages/Blog';
 import Contact from '../pages/Contact';
 import About from '../pages/About';
+import Login from '../pages/Login';
 
 
 const routes = [
@@ -21,6 +22,10 @@ const routes = [
     {
         path : "/contact-us",
         components : Contact
+    },
+    {
+        path: "/login",
+        components : Login
     }
 ]
 
