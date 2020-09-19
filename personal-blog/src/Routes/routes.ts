@@ -2,7 +2,7 @@ import Home from '../pages/Home/Home';
 import Blog from '../pages/Blog';
 import Contact from '../pages/Contact';
 import About from '../pages/About';
-import Login from '../pages/Login';
+import Login from '../pages/Login/Login';
 import NotFound from '../pages/NotFound/NotFound404';
 
 

@@ -2,15 +2,16 @@ import React from 'react'
 import {NavLink} from 'react-router-dom'
 import {Navigation ,H1} from '../../styles/elements'
 import {links} from '../../Routes/links'
+import {useAuthContext} from '../../hooks/useAuthContext'
 
 const Nav:React.FC = (props)=>{
-    
+    const Auth = useAuthContext()
     return (
      <Navigation>
          <section className="nav-section">
              <H1>
-                 <NavLink to="/login" activeClassName="underline">
-                    Login
+                 <NavLink exact={true} to={Auth ? "/blog" : "/login"} activeClassName="underline">
+                    {Auth ? "Welcome" : "Login"}
                  </NavLink>
             
              </H1>
